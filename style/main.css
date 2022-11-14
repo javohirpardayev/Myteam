@@ -1,0 +1,425 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  /* border: 1px solid; */
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  font-family: "Livvic";
+}
+html {
+  height: 100%;
+}
+main {
+  flex-grow: 1;
+}
+@font-face {
+  font-family: "Livvic";
+  src: url("../font/Livvic-SemiBold.woff2") format("woff2"),
+    url("../font/Livvic-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Livvic";
+  src: url("../font/Livvic-Bold.woff2") format("woff2"),
+    url("../font/Livvic-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+.contenier {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1300px;
+  padding: 0 20px;
+}
+header {
+  padding-top: 73px;
+  background-color: #014e56;
+  padding-bottom: 10px;
+}
+.myTeam_logo {
+  justify-content: space-between;
+  padding: 0 65px;
+  display: flex;
+}
+.myTeam_logo nav {
+  display: flex;
+}
+.myTeam_logo nav ul {
+  padding: 6.05px;
+  display: flex;
+  margin-right: 557px;
+}
+.myTeam_logo nav ul li {
+  margin: 0 20px;
+}
+li {
+  list-style: none;
+}
+.icon-fa-ti a:not(:last-child) {
+  margin-right: 16px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+}
+.myTeam_logo nav .contact_button {
+  width: 158px;
+  height: 48px;
+  border: 2px solid #ffffff;
+  border-radius: 24px;
+  padding: 9px 33px 11px 32px;
+}
+.myTeam_logo .logo {
+  padding-top: 4px;
+}
+.hero {
+  background-color: #014e56;
+}
+.find_the_best_talant {
+  display: flex;
+  padding: 133px 65px 250px 65px;
+}
+.banner_for_talant {
+  padding-right: 65px;
+}
+.find_the_best_talant .banner_for_talant h1 {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 100px;
+  color: #ffffff;
+}
+span {
+  color: #f67e7e;
+}
+.for-line {
+  width: 50px;
+  height: 4px;
+  background: #f67e7e;
+}
+.coments-for-talant .for-line {
+  width: 50px;
+  height: 4px;
+  background-color: #79c8c7;
+}
+.coments-for-talant p {
+  margin-top: 83px;
+  width: 445px;
+  height: 112px;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+
+  color: #ffffff;
+}
+.build-and-manage {
+  background: rgba(1, 47, 52, 1);
+}
+.built {
+  display: flex;
+  justify-content: space-between;
+  padding: 140px 65px;
+}
+.line-for-built {
+  width: 50px;
+  height: 4px;
+  background: rgba(246, 126, 126, 1);
+  /* border: 0.5px solid rgba(246, 126, 126, 1); */
+  margin-bottom: 54px;
+}
+.banner-h1 {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  /* or 100% */
+
+  color: #ffffff;
+}
+.banner-for-built {
+  width: 445px;
+}
+.icon {
+  display: flex;
+  width: 540px;
+  margin-bottom: 32px;
+}
+.for-com h4 {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+
+  color: #f67e7e;
+}
+.for-com p {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  /* or 167% */
+
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+.for-com {
+  margin-left: 40px;
+}
+.delivering-real {
+  padding: 140px 0;
+}
+.delivering {
+  background: rgba(0, 64, 71, 1);
+}
+.h1-span {
+  color: rgba(121, 200, 199, 1);
+}
+.real-h1 {
+  width: 932px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  /* or 100% */
+
+  text-align: center;
+  margin-bottom: 57px;
+
+  color: #ffffff;
+}
+.about-someone {
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.for-wemen {
+  height: 353px;
+  background: url(../img/img-design/icon-quotes.svg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  width: 350px;
+  padding-top: 35px;
+}
+.for-wemen p {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  /* or 167% */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.wemen p {
+  margin-bottom: 32px;
+  font-family: "Livvic";
+  font-style: italic;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  /* identical to box height, or 138% */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.wemen h4 {
+  margin: 24px 0 2px 0;
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+
+  text-align: center;
+
+  color: #79c8c7;
+}
+
+.wemen img {
+  display: block;
+  width: 62px;
+  height: 62px;
+  margin-left: 144px;
+}
+
+.ready-get {
+  display: flex;
+  justify-content: space-between;
+  padding: 73px 115px;
+  background: url(../img/img-design/ready-design.svg);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+.getting-start {
+  background: url(../img/img-design/ready-design.svg);
+  background-color: rgba(246, 126, 126, 1);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+.get-h1 {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  /* identical to box height, or 100% */
+
+  color: #012f34;
+}
+.for-link {
+  border: 2px solid #012f34;
+  border-radius: 24px;
+  padding: 9px 33px 10px 32px;
+}
+.btn {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+
+  color: #012f34;
+}
+footer {
+  background: rgba(0, 37, 41, 1);
+}
+.myTeamFoot {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 48px;
+}
+.for-call {
+  width: 595px;
+  align-items: flex-start;
+}
+.for-call p {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  /* or 167% */
+
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+.for_icon {
+  position: relative;
+}
+.icon-crl {
+  position: absolute;
+  width: 56px;
+  border-radius: 50%;
+  height: 56px;
+  background: rgba(44, 98, 105, 1);
+  top: 16px;
+  left: 16px;
+  z-index: 1;
+}
+.for_icon img {
+  display: flex;
+  position: relative;
+  z-index: 2;
+}
+.link-ul {
+  margin-top: 25px;
+  display: flex;
+}
+.link-li:not(:last-child) {
+  margin-right: 40px;
+}
+.link-a {
+  font-family: "Livvic";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+
+  color: #ffffff;
+}
+.icon-img:not(:last-child) {
+  width: 24px;
+  margin-right: 15px;
+  height: 24px;
+}
+
+.hero {
+  position: relative;
+}
+.design-img-b {
+  position: absolute;
+  bottom: 250px;
+  left: 0;
+}
+.design-img-p {
+  position: absolute;
+  bottom: 0;
+  right: 165px;
+}
+.build-and-manage {
+  position: relative;
+}
+.build-design {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.delivering {
+  position: relative;
+}
+.r-b-l {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.r-b-r {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+a:active {
+  color: #f67e7e;
+}
+.contact_button:active {
+  background-color: #ffffff;
+}
+.contact_button:active a {
+  color: #012f34;
+}
